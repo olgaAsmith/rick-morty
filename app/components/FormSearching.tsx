@@ -149,7 +149,6 @@ export default function FormSearching() {
               <SelectItem value='alive'>Да</SelectItem>
               <SelectItem value='dead'>Нет</SelectItem>
               <SelectItem value='unknown'>Неизвестно</SelectItem>
-              <SelectItem value='maybe'>Не знаю</SelectItem>
             </SelectContent>
           </Select>
         </div>
@@ -171,7 +170,6 @@ export default function FormSearching() {
             <SelectContent>
               <SelectItem value='human'>Человек</SelectItem>
               <SelectItem value='alien'>Инопланетянин</SelectItem>
-              <SelectItem value='all'>Любая</SelectItem>
             </SelectContent>
           </Select>
         </div>
