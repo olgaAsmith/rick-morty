@@ -17,14 +17,14 @@ export default async function Details({ params }: { params: { id: string } }) {
   const episodeNumbers = getEpisodeNumbers(character?.episode);
 
   return (
-    <section className='flex flex-col items-center justify-center'>
-      <div className='flex flex-col md:flex-row gap-6 md:gap-12 items-center mb-8 '>
+    <section className='flex flex-col items-center justify-center lg:mt-40'>
+      <div className='flex flex-col md:flex-row gap-6 md:gap-12 items-center mb-4 lg:mb-8 '>
         <BackButton></BackButton>
         <h1 className='text-2xl lg:text-[52px] text-center'>
           Вселенная Рик и Морти
         </h1>
       </div>
-      <div className='flex flex-col lg:flex-row gap-16 p-6 border-2 rounded-2xl items-start lg:w-max lg:max-w-[1000px] '>
+      <div className='flex flex-col lg:flex-row gap-4 lg:gap-16 p-2.5 lg:p-6 border-2 rounded-2xl items-start lg:w-max lg:max-w-[1000px] '>
         {character ? (
           <>
             <div className='max-w-[400px]'>

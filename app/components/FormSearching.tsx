@@ -100,10 +100,10 @@ export default function FormSearching() {
   return (
     <form
       onSubmit={handleSubmit(onSubmit)}
-      className='flex flex-col gap-4 lg:gap-6 w-full max-w-md p-6 border-2 rounded-2xl h-[520px] md:h-auto md:max-h-[450px]'
+      className='flex flex-col gap-4 lg:gap-6 w-full max-w-md p-4 lg:p-6 border-2 rounded-2xl h-fit'
       noValidate
     >
-      <h2 className='text-2xl mb-4 text-center lg:text-left'>
+      <h2 className='lg:mb-4 text-center lg:text-left'>
         Вселенная Рик и Морти
       </h2>
       <div className='relative'>
@@ -120,11 +120,11 @@ export default function FormSearching() {
             },
           })}
           className={`w-full h-[30px] p-2 border-2 rounded-md bg-transparent outline-none hover:opacity-80 transition cursor-pointer text-xl ${
-            errors.personName ? 'border-red-700' : 'border-white'
+            errors.personName ? 'border-red-400' : 'border-slate-300'
           }`}
         />
         {errors.personName && (
-          <p className='absolute bottom-[-15px] left-0 text-red-700 text-[10px]'>
+          <p className='absolute bottom-[-18px] left-0 text-red-400 text-[14px]'>
             {errors.personName.message}
           </p>
         )}
@@ -191,11 +191,11 @@ export default function FormSearching() {
             },
           })}
           className={`w-full h-[30px] p-2 border-2 rounded-md bg-transparent ${
-            errors.episode ? 'border-red-700' : 'border-white'
+            errors.episode ? 'border-red-400' : 'border-slate-300'
           } outline-none hover:opacity-80 transition cursor-pointer text-xl`}
         />
         {errors.episode && (
-          <p className='absolute bottom-[-15px] left-0 text-red-700 text-[10px]'>
+          <p className='absolute bottom-[-18px] left-0 text-red-400 text-[14px]'>
             {errors.episode.message}
           </p>
         )}

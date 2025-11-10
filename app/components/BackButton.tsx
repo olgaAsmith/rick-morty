@@ -6,7 +6,7 @@ export default function BackButton() {
   const router = useRouter();
 
   return (
-    <button onClick={() => router.push('/')} className='rounded-full bg-gray-800 w-[50px] h-[50px] flex items-center justify-center hover:bg-gray-600 transition' title='Назад'>
+    <button onClick={() => router.push('/')} className='absolute lg:static top-4 left-2 rounded-full bg-sky-900 p-2 size-8 lg:w-[50px] lg:h-[50px] flex items-center justify-center hover:bg-sky-700 transition' title='Назад'>
       <MoveLeft></MoveLeft>
     </button>
   );

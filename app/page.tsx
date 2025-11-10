@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <section>
       <div className='flex flex-col justify-center'>
-        <h1 className='text-2xl lg:text-[46px] m-auto mb-12'>Rick & Morty</h1>
+        <h1 className='m-auto mb-4 lg:mb-12'>Rick & Morty</h1>
         <div className='w-full flex flex-col gap-8 lg:flex-row items-center lg:items-stretch'>
           <FormSearching></FormSearching>
           <Results></Results>

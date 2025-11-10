@@ -7,7 +7,7 @@ export default function ResultList() {
   const { characters, search } = useStore();
 
   if (!search) {
-    return <span className='text-xl'>Пора заняться поисками....</span>;
+    return <span className='text-xl lg:text-2xl'>Пора заняться поисками....</span>;
   }
 
   if (characters.length === 0) {
