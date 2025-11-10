@@ -38,7 +38,7 @@ This created with: Next.js, Typescript, Tailwind, Shadcn/ui(Select), Zustand, Re
 
 ---
 
-Поиск персонажа из вселенной Рика и Морти. 
+Search for a character from the Rick and Morty universe.
 
-Карточки всех персонажей из вселенной Рика и Морти с основными характеристиками персонажа. 
+Cards of all characters from the Rick and Morty universe with the main characteristics of each character.
 
